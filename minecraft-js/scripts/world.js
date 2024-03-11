@@ -14,7 +14,7 @@ export class World extends THREE.Group {
             for (let z = 0; z < this.size; z++) {
                 const block = new THREE.Mesh(geometry, material);
                 block.position.set(x, 0, z);
-                this.add(block); // Add block to the world
+                this.add(block);
             }
         }
     }
